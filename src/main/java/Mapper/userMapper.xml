@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间设置成包名+sql映射文件名，保证namespace取值唯一 -->
+<mapper namespace="Mapper.userMapper">
+    <!-- id属性值必须唯一，不能重复
+         parameterType设置查询语句接受的参数类型(userID 的数据类型)
+         resultType设置查询返回的结果类型
+         resultType="com.cheese.pojo.User"表示 t_user每行记录被封装成一个User对象
+    -->
+    <!-- 根据userid查询User对象    -->
+
+    <insert id="insertNode" parameterType="Entity.Node" >
+        INSERT INTO Node(nodeID,nodeVal,battery,readTime，recvTime) values(#{nodeID},#{nodeVal},null,"2020-06-03 11:00:00",#{recvTime});
+    </insert>
+</mapper>

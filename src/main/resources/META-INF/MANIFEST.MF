@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Main-Class: com.service.dataCollection.QueryBatchDevices
+Class-Path: commons-codec-1.9.jar spring-context-4.1.6.RELEASE.jar mssql
+ -jdbc-8.2.1.jre8.jar commons-logging-1.2.jar httpcore-4.4.4.jar commons
+ -lang-2.5.jar spring-aop-4.1.6.RELEASE.jar httpmime-4.5.2.jar spring-be
+ ans-4.1.6.RELEASE.jar jackson-core-2.5.4.jar httpclient-4.5.2.jar json-
+ lib-2.4-jdk15.jar spring-expression-4.1.6.RELEASE.jar spring-core-4.1.6
+ .RELEASE.jar ezmorph-1.0.6.jar jackson-annotations-2.5.4.jar jackson-da
+ tabind-2.5.4.jar commons-beanutils-1.8.0.jar spring-web-4.1.6.RELEASE.j
+ ar mybatis-3.4.6.jar aopalliance-1.0.jar commons-collections-3.2.1.jar
+
